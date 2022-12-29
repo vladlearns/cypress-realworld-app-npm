@@ -74,6 +74,17 @@
       "balance": 75369,
       "createdAt": "2020-02-11T21:26:46.510Z",
       "modifiedAt": "2020-05-21T15:15:33.944Z"
+    },
+    {
+      "id": "YUGAPa01E",
+      "uuid": "7d4e71ee-7941-4ecf-974d-5f390a9e286a",
+      "firstName": "admin",
+      "lastName": "admin",
+      "username": "admin",
+      "password": "$2a$10$/ByziRP46M6.ENDwS1qtheb/K.HUzVw29U.rJDW/v81qsjFo6jhYe",
+      "balance": 0,
+      "createdAt": "2022-12-28T19:34:14.699Z",
+      "modifiedAt": "2022-12-28T19:34:14.699Z"
     }
   ],
   "contacts": [
@@ -255,14 +266,15 @@
       "modifiedAt": "2020-05-21T22:40:28.910Z"
     },
     {
-      "id": "BnFx1aBAM",
-      "uuid": "492f8922-8699-4738-96d9-fc717445be29",
-      "bankName": "The Best Bank",
-      "accountNumber": "123456789",
-      "routingNumber": "987654321",
+      "id": "CYkeqDc6y",
+      "uuid": "45101d26-2864-4a96-b7a0-38f12a0ea849",
+      "userId": "YUGAPa01E",
+      "bankName": "admin",
+      "accountNumber": "111111111",
+      "routingNumber": "111111111",
       "isDeleted": false,
-      "createdAt": "2022-11-30T19:27:10.571Z",
-      "modifiedAt": "2022-11-30T19:27:10.571Z"
+      "createdAt": "2022-12-28T19:34:48.498Z",
+      "modifiedAt": "2022-12-28T19:34:48.498Z"
     }
   ],
   "transactions": [
@@ -9947,6 +9959,14 @@
       "transactionId": "SXHgQh46s7A",
       "createdAt": "2020-05-07T03:37:29.711Z",
       "modifiedAt": "2020-05-21T02:32:06.555Z"
+    },
+    {
+      "id": "NXVrKqeVb",
+      "uuid": "b3c507ab-d99b-4f03-958c-d7d0b7f02a7f",
+      "userId": "YUGAPa01E",
+      "transactionId": "4AvM8cN1DdS",
+      "createdAt": "2022-12-28T19:35:29.705Z",
+      "modifiedAt": "2022-12-28T19:35:29.705Z"
     }
   ],
   "comments": [
@@ -10441,6 +10461,26 @@
       "isRead": false,
       "createdAt": "2019-10-19T20:50:49.292Z",
       "modifiedAt": "2020-05-21T21:00:50.192Z"
+    },
+    {
+      "id": "yqD-0cTM7m",
+      "uuid": "9b9b9c5b-c84d-4f74-9ad0-670b47a13e2d",
+      "userId": "qywYp6hS0U",
+      "transactionId": "4AvM8cN1DdS",
+      "likeId": "NXVrKqeVb",
+      "isRead": false,
+      "createdAt": "2022-12-28T19:35:29.712Z",
+      "modifiedAt": "2022-12-28T19:35:29.712Z"
+    },
+    {
+      "id": "17Y3bfdH76",
+      "uuid": "ae6fd6b9-28de-4929-a17b-57f116fb20f8",
+      "userId": "bDjUb4ir5O",
+      "transactionId": "4AvM8cN1DdS",
+      "likeId": "NXVrKqeVb",
+      "isRead": false,
+      "createdAt": "2022-12-28T19:35:29.718Z",
+      "modifiedAt": "2022-12-28T19:35:29.718Z"
     }
   ],
   "banktransfers": [
