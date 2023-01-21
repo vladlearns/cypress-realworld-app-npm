@@ -1,5 +1,6 @@
 // @ts-check
 import "@cypress/code-coverage/support";
+import "@cypress/xpath";
 import "./commands";
 import { isMobile } from "./utils";
 
